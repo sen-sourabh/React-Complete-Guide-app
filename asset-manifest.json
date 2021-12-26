@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Complete-Guide-app/static/css/main.915fa40a.css",
+    "main.js": "/React-Complete-Guide-app/static/js/main.7cfd6d52.js",
+    "static/js/787.d6ada29e.chunk.js": "/React-Complete-Guide-app/static/js/787.d6ada29e.chunk.js",
+    "static/media/logo.svg": "/React-Complete-Guide-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Complete-Guide-app/index.html",
+    "main.915fa40a.css.map": "/React-Complete-Guide-app/static/css/main.915fa40a.css.map",
+    "main.7cfd6d52.js.map": "/React-Complete-Guide-app/static/js/main.7cfd6d52.js.map",
+    "787.d6ada29e.chunk.js.map": "/React-Complete-Guide-app/static/js/787.d6ada29e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.915fa40a.css",
+    "static/js/main.7cfd6d52.js"
+  ]
+}
