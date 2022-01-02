@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Expense from "./components/Expenses/Expense";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
   const expenseArray = [
@@ -29,12 +30,18 @@ const App = () => {
       date: new Date(2021, 5, 15),
     },
   ];
+  const addExpenseHandler = (expense) => {
+    console.log("In App.js");
+    console.log(expense);
+    expenseArray.push(expense);
+  };
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div className="react-container">
+        <NewExpense onAddExpense={addExpenseHandler} />
         <Expense items={expenseArray} />
       </div>
     </div>
